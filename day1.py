@@ -25,3 +25,4 @@ if s.isalpha():
         print('Consonant')
 else:
     print("Invalid Input")
+    

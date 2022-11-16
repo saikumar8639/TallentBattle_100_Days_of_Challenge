@@ -28,8 +28,11 @@ Invalid Input
 """
 
 s=input()
-from string import ascii_lowercase as low
-from string import ascii_uppercase as upp
 
-if s in low:
-    print("")
+if s.isalpha():
+    if s in ["a","e",'i','o','u','A','E','I','O','U']:
+        print("Vowel")
+    else:
+        print('Consonant')
+else:
+    print("Invalid Input")

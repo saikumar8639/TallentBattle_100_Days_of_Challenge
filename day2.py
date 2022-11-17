@@ -11,4 +11,9 @@ Input: 7
 Output: Not an alphabet
 
 """
-s=input()
+c=input()
+if c.isalpha():
+    print("Alphabet")
+else:
+    print("Not an alphabet")
+

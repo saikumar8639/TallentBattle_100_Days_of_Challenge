@@ -14,4 +14,4 @@ Output: 66
 """
 
 s=input()
-print(ord(s))
+print(ord(s)) # ord function is used to print the ascii value of the character

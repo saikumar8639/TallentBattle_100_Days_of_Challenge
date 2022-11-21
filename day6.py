@@ -15,3 +15,14 @@ Input
 Output
 This point lies in second quadrant.
 """
+x,y=map(int,input().split())
+if x>0:
+    if y>0:
+        print("This point lies in first quadrant")
+    else:
+        print("This point lies in Third quadrant")
+else:
+    if y>0:
+        print("This point lies in second quadrant")
+    else:
+        print("This point lies in fourth quadrant")

@@ -13,5 +13,7 @@ Output
 29
 """
 from calendar import monthrange
-print(monthrange(2022, 11))
-#(1, 28)
+mon=int(input("Enter month : "))
+year=int(input("Enter year : "))
+
+print(monthrange(year, mon)[1])

@@ -16,4 +16,4 @@ from calendar import monthrange
 mon=int(input("Enter month : "))
 year=int(input("Enter year : "))
 
-print(monthrange(year, mon)[1])
+print(monthrange(year, mon)[1]) #by using monthrange function we can get no of days in a month

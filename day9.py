@@ -8,15 +8,14 @@ Take an integer as the input from the user and then calculate the number of digi
 
 Input
 3241
-
 Output
 4 
 
 Input
 6
-
 Output
 1
 """
 number=int(input())
-print(len(str(number)))
+print(len(str(number))) #len is used to find the length
+# str is used to convert int to string 

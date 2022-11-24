@@ -18,3 +18,5 @@ Input
 Output
 1
 """
+number=int(input())
+print(len(str(number)))

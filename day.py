@@ -17,3 +17,9 @@ while number:
     factorial*=number
     number-=1
 print(factorial)
+"""
+
+import math
+print(math.factorial(number))
+
+"""

@@ -11,3 +11,9 @@ Output
 24
 """
 
+number=int(input())
+factorial=1
+while number:
+    factorial*=number
+    number-=1
+print(factorial)

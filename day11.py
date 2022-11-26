@@ -17,3 +17,13 @@ Input
 Output
 0,1,1,2,3,5,8,13
 """
+
+n=int(input())
+l=[]
+f0=0;f1=1
+for _ in range(n):
+    l.append(str(f0))
+    f2=f0+f1
+    f0=f1 
+    f1=f2
+print(",".join(l))

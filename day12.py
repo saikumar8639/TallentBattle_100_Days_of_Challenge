@@ -1,7 +1,7 @@
 """
 Day 12 coding Statement:  Write a program to find Sum of digits of a number
 
-Description
+Description:
 Get a number from user and then find the sum of the digits in the given number.
 
 E.g. let the number = 341

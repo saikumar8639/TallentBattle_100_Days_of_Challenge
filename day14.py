@@ -13,3 +13,7 @@ Input
 Output
 576
 """
+number=int(input())
+print("number is :",number)
+r_number=int(str(number)[::-1])
+print("Reversed number is:",r_number)

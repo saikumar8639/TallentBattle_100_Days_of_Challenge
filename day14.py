@@ -18,3 +18,11 @@ number=int(input())
 print("number is :",number)
 r_number=int(str(number)[::-1])
 print("Reversed number is:",r_number)
+"""
+r_number=0
+while number:
+    r_number=r_number*10+(number)%10
+    number//=10
+print("Reversed number :",r_number)
+
+"""

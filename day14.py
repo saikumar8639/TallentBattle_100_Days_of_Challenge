@@ -13,6 +13,7 @@ Input
 Output
 576
 """
+#python solution
 number=int(input())
 print("number is :",number)
 r_number=int(str(number)[::-1])

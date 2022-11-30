@@ -21,6 +21,7 @@ Input
 Output
 Strong number
 """
+#Python solution
 import math as m
 num=int(input())
 n=num

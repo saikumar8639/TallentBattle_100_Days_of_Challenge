@@ -19,4 +19,16 @@ Input
 2
 
 Output
-Strong number"""
+Strong number
+"""
+import math as m
+num=int(input())
+n=num
+c=0
+while n:
+    c+=m.factorial(n%10)
+    n//=10
+if num==c:
+    print("Strong number")
+else:
+    print("Not a strong number")

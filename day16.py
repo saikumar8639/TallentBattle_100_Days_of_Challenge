@@ -19,3 +19,12 @@ Input
 Output
 Not a perfect number 
 """
+number=int(input())
+c=0
+for i in range(1,number):
+    if number%i==0:
+        c+=i
+if c==number:
+    print("Perfect Number")
+else:
+    print("Not a perfect Number")

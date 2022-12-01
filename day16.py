@@ -19,6 +19,7 @@ Input
 Output
 Not a perfect number 
 """
+#Python solution
 number=int(input())
 c=0
 for i in range(1,number):

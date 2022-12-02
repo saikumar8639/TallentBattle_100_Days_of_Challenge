@@ -1,4 +1,4 @@
-""""""""
+"""
 Day 17 coding Statement : Write a program to find the Factors of a number
 
 Description
@@ -11,3 +11,9 @@ Output
 1,2,4  
 """
 
+number=int(input())
+l=[] #empty list
+for i in range(1,number+1):
+    if number%i==0:
+        l.append(str(i))
+print(",".join(l))

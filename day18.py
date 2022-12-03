@@ -15,3 +15,7 @@ Input
 Output
 2/1   
 """
+x1,y1=map(int,input().split())
+x2,y2=map(int,input().split())
+s=(x1/y1+x2/y2).as_integer_ratio()
+print(str(s[0])+"/"+str(s[1]))

@@ -20,3 +20,13 @@ Input
 Output
 Not an Armstrong number  
 """
+num=int(input())
+n=num
+s=0
+while n>0:
+    s+=(n%10)**len(str(num))
+    n//=10
+if s==num:
+    print("Armstrong number")
+else:
+    print("Not an Armstrong number")

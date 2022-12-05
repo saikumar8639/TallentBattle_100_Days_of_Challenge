@@ -17,3 +17,13 @@ Input
 Output
 5 is a prime number  
 """
+num=int(input())
+f=0
+for j in range(2,num):
+    if num%j==0:
+        f=1
+        break
+if f==1:
+    print(num,"is a prime number")
+else:
+    print(num,"is not a prime number")

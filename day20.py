@@ -17,6 +17,7 @@ Input
 Output
 5 is a prime number  
 """
+#python solution
 num=int(input())
 f=0
 for j in range(2,num):

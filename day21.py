@@ -15,6 +15,7 @@ Input
 Output
 Not a Palindrome
 """
+#Python solution
 num=int(input())
 if str(num)==str(num)[::-1]:
     print(num,"is Palindrome")

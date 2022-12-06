@@ -17,4 +17,6 @@ Not a Palindrome
 """
 num=int(input())
 if str(num)==str(num)[::-1]:
-    print(num,"is ")
+    print(num,"is Palindrome")
+else:
+    print(num,"is not a palindrome")

@@ -12,6 +12,7 @@ Output
 4 can be expressed as sum of 2 and 2
 
 """
+#solution
 def isprime(n):
     for i in range(2,int(n**0.5)):
         if n%i==0:

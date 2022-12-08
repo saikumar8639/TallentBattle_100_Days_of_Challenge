@@ -13,3 +13,6 @@ Input
 Output
 311121
 """
+num=int(input())
+l=[i if i!='0' else '1' for i in list(str(num))]
+print(int("".join(l)))

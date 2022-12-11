@@ -18,5 +18,6 @@ Output
 
 45
 """
+#Python solution
 number=int(input())
 print("No of Handshakes: ",number*(number-1)//2)

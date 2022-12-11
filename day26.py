@@ -18,3 +18,5 @@ Output
 
 45
 """
+number=int(input())
+print("No of Handshakes: ",number*(number-1)//2)

@@ -11,3 +11,8 @@ Input
 Output
 8
 """
+numbeer=int(input("Enter a number to double: "))
+double=numbeer
+for i in range(numbeer):
+    double+=1
+print("Doubel of",numbeer,"is :",double)

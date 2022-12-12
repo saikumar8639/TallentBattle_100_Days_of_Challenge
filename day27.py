@@ -11,6 +11,7 @@ Input
 Output
 8
 """
+# Python solution
 numbeer=int(input("Enter a number to double: "))
 double=numbeer
 for i in range(numbeer):

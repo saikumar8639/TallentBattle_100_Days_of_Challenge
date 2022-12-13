@@ -13,3 +13,4 @@ Output
 
 olleH
 """
+print(input()[::-1])

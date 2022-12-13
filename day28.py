@@ -13,4 +13,5 @@ Output
 
 olleH
 """
+#Python solution
 print(input()[::-1])

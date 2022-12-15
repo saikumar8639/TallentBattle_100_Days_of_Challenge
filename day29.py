@@ -16,6 +16,7 @@ Hi
 Output
 HelloHi
 """
+#Python solution
 x = input("Enter first string")
 
 y = input("Enter second string")

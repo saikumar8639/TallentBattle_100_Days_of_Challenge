@@ -13,3 +13,7 @@ Output
 
 5
 """
+c=0
+for i in input():
+    c+=1
+print(c)

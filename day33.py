@@ -17,3 +17,6 @@ Talent
 Output
 Not a Palindrome
 """
+
+string=input()
+print("Palindrome" if string==string[::-1] else "Not a Palindrome")

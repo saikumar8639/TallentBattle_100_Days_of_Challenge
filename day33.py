@@ -17,6 +17,6 @@ Talent
 Output
 Not a Palindrome
 """
-
+#Python Solution
 string=input()
 print("Palindrome" if string==string[::-1] else "Not a Palindrome")

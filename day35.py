@@ -14,3 +14,8 @@ Output
 11
 """
 #Python solution
+result=0
+for i in input():
+    if  i.isnumeric():
+        result+=int(i)
+print(result)   

@@ -12,3 +12,10 @@ Output
 7x+2*y
 
 """
+#Python solution
+expression=input()
+s=""
+for i in expression:
+    if i!= '(' and i!=')':
+        s+=i
+print(s)

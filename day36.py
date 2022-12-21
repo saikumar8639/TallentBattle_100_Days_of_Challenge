@@ -13,7 +13,7 @@ Output
 
 ProgramminG
 """
-
+#Python solution
 string=input()
 string=string[0].upper()+string[1:-1]+string[-1].upper()
 print(string)

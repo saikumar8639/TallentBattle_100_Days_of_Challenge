@@ -23,3 +23,8 @@ The frequency of p is 1
 
 The frequency of r is 2
 """
+string=input()
+from collections import Counter as co
+s_count=sorted(co(string))
+for i in s_count:
+    print("The frequency of",i,"is",co(string)[i])

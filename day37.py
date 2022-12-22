@@ -23,6 +23,7 @@ The frequency of p is 1
 
 The frequency of r is 2
 """
+#Python solution
 string=input()
 from collections import Counter as co
 s_count=sorted(co(string))

@@ -26,3 +26,15 @@ C++ Module to Refer: Flow control, Functions, Operators, String
 Java Modules to Refer: Flow control, Functions, Operators, String
 
 """
+#take user input
+String = "Deepak"
+
+for i in String:
+    count = 0
+    for j in String:
+        if i == j:
+            count+=1
+        if count > 1:
+            break
+    if count == 1:
+        print(i,end = " ")

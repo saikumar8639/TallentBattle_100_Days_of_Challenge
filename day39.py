@@ -14,3 +14,9 @@ Output
 Anagram
 """
 #python solution
+
+s1,s2=input("Enter the two strings: ").split()
+if sorted(s1)==sorted(s2):
+    print("Anagram")
+else:
+    print("Not an Anagram")

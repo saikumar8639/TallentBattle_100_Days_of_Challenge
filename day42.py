@@ -22,3 +22,11 @@ Enter elements of second array :
 Output
 Same
 """
+n1=int(input("Enter the size of first array:\n"))
+n2=int(input("Enter the size of second array:\n"))
+arr1=sorted([int(i) for i in input("Enter elements of first array :").split()])
+arr2=sorted([int(i) for i in input("Enter elements of first array :").split()])
+if n1==n2 and arr1==arr2:
+    print("Same")
+else:
+    print("Not same")

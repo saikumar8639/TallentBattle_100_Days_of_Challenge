@@ -16,3 +16,17 @@ Enter elements
 Output
 Odd
 """
+
+size=int(input("Enter size of array :"))
+array=[int(i) for i in input("Enter elements\n").split()]
+ee=0
+oe=0
+for i in array:
+    if i%2==0:ee=1
+    else:oe=1
+if ee==0 and oe==1:
+    print("odd")
+elif ee!=0 and oe==1:
+    print("even")   
+else:
+    print("mixed process")

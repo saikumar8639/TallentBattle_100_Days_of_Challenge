@@ -16,7 +16,7 @@ Enter elements
 Output
 Odd
 """
-
+#python solution
 size=int(input("Enter size of array :"))
 array=[int(i) for i in input("Enter elements\n").split()]
 ee=0

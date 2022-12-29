@@ -18,3 +18,12 @@ Number of even elements :
 Number of odd elements :
 3
 """
+size=int(input("Enter size of array \n"))
+arr=[int(i) for i in input("Enter the elements :\n").split()]
+ee=0
+oe=0
+for i in arr:
+    if i%2==0:ee+=1
+    else:oe+=1
+print("Number of even elements :\n".ee)
+print("Number of odd elements :\n".oe)

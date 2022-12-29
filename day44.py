@@ -18,6 +18,7 @@ Number of even elements :
 Number of odd elements :
 3
 """
+#Python solution
 size=int(input("Enter size of array \n"))
 arr=[int(i) for i in input("Enter the elements :\n").split()]
 ee=0

@@ -15,3 +15,17 @@ Smallest Number :
 Largest Number :
 40
 """
+size=int(input("Enter the size of array :\n"))
+array=[int(i) for i in input("Enter the elements :\n").split()]
+from math import inf
+se=inf
+le=-inf
+for i in array:
+    if se>i:
+        se=i 
+    if le<i:
+        le=i
+print("Smallest Number :")
+print(se)
+print("Largest Number :")
+print(le)

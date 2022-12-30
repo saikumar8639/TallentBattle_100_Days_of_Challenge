@@ -15,6 +15,7 @@ Smallest Number :
 Largest Number :
 40
 """
+#Python solution
 size=int(input("Enter the size of array :\n"))
 array=[int(i) for i in input("Enter the elements :\n").split()]
 from math import inf

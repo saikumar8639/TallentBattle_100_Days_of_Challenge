@@ -14,3 +14,7 @@ Output
 1000001
 
 """
+size=int(input('Enter the size of array\n'))
+arr=[int(i) for i in input("Enter the elements of array\n").split()]
+arr=filter(lambda a:str(a)==str(a)[::-1],arr)
+print(max(arr))

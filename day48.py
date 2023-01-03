@@ -14,3 +14,11 @@ Enter the elements of array
 Output
 35 45 60
 """
+
+size=int(input("Enter the size of array\n"))
+arr=[int(i) for i in input("Enter the elements of array\n").split()]
+d=[]
+for i in arr:
+    if str(i) not in d:
+        d.append(str(i))
+print(" ".join(d))

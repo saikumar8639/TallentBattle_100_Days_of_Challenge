@@ -14,7 +14,7 @@ Enter the elements of array
 Output
 35 45 60
 """
-
+#Python solution
 size=int(input("Enter the size of array\n"))
 arr=[int(i) for i in input("Enter the elements of array\n").split()]
 d=[]

@@ -5,16 +5,17 @@ Sample input 1 :
 4 1 2 3 4 5 6 7 8
 Sample output 1 :
 60
-
 Explanation :
 (4*5 + 3*6 + 2*7 + 1*8) = 60
 
 Sample input 2 :
 4 -1 -2 -3 -4 5 6 -7 -8
-
 Sample output 2 :
 -17
-
 Explanation :
 (-1*-8 + -2*-7 + -3*6 + -4*5) = -17
 """
+arr=[int(i) for i in input().split()]
+x=sorted(arr[1:arr[0]+1],reverse=True)
+y=sorted(arr[arr[0]+1:])
+print(sum([x[i]*y[i] for i in range(arr[0])]))

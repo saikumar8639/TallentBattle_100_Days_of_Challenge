@@ -15,6 +15,7 @@ Sample output 2 :
 Explanation :
 (-1*-8 + -2*-7 + -3*6 + -4*5) = -17
 """
+#Python solution
 arr=[int(i) for i in input().split()]
 x=sorted(arr[1:arr[0]+1],reverse=True)
 y=sorted(arr[arr[0]+1:])

@@ -17,5 +17,6 @@ Sample output 2 :
 Explanation :
 (1 + 4 + 9 + 16) = 30
 """
+#Python solution
 arr=[int(i) for i in input().split()]
 print(sum(list(map(lambda a:a**2,arr[1:]))))

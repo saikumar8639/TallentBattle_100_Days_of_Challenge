@@ -14,3 +14,11 @@ Sample output 2:
 1 3 5 5 7
 
 """
+arr=[int(i) for i in input().split()]
+arr=arr[1:]
+for i in range(len(arr)):
+    for j in range(0,len(arr)-i-1):
+        if (arr[j]>arr[j+1]):
+            arr[j],arr[j+1]=arr[j+1],arr[j]
+for i in arr:
+    print(i,end=" ")

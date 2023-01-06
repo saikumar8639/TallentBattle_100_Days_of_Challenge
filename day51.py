@@ -14,6 +14,7 @@ Sample output 2:
 1 3 5 5 7
 
 """
+#Python solution
 arr=[int(i) for i in input().split()]
 arr=arr[1:]
 for i in range(len(arr)):

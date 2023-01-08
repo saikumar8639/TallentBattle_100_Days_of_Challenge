@@ -14,6 +14,7 @@ Sample input 2:
 Sample output 2:
 3 5 7 5 1
 """
+#Python solution
 size=int(input())
 arr=[int(i) for i in input().split()]
 array=[]

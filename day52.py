@@ -14,3 +14,9 @@ Sample input 2:
 Sample output 2:
 3 5 7 5 1
 """
+size=int(input())
+arr=[int(i) for i in input().split()]
+array=[]
+for i in arr:
+    array.insert(0,i)
+print(array)

@@ -12,6 +12,7 @@ Sample input 2:
 Sample output 2:
 15 = {5, 3}
 """
+#Python solution
 size=int(input())
 arr=[int(i) for i in input().split()]
 arr1=arr[::-1]

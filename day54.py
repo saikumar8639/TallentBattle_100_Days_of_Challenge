@@ -17,6 +17,7 @@ Sample input 2
 Sample output 2:
 Not disjoint. ( 6 is common)
 """
+#Python solution
 size1=int(input("Enter size of array 1\n"))
 arr1={int(i) for i in input("Enter array 1\n").split()}
 

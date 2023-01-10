@@ -23,3 +23,10 @@ Sample output 2:
 Explanation :
 (-4*-8 + -3*-7 + -2*5 + -1*6) = 37
 """
+size=int(input())
+arr1=sorted([int(i) for i in input().split()])
+arr2=sorted([int(i) for i in input().split()])
+s=0
+for i in range(size):
+    s+=arr1[i]*arr2[i]
+print(s)

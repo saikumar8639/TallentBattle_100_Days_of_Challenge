@@ -16,6 +16,7 @@ Input
 Output
 Yes
 """
+#Python solution
 size=int(input())
 arr=[int(i) for i in input().split()]
 print("Yes") #every array can be made equal eith the help of lcm of the total array

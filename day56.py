@@ -11,8 +11,11 @@ For eg, for the following input it should print yes because
 
 Input
 3
-50 75 150
+50 75 150 
 
 Output
 Yes
 """
+size=int(input())
+arr=[int(i) for i in input().split()]
+print("Yes") #every array can be made equal eith the help of lcm of the total array

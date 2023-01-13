@@ -23,6 +23,7 @@ Sample Output 1
 1
 9
 """
+#Python solution
 for _ in range(int(input())):
     k,x=map(int,input().split())
     print(k-x)

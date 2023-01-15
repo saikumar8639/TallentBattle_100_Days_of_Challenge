@@ -24,7 +24,7 @@ Sample Output:
 4
 
 """
-
+#Python solution
 for _ in range(int(input())):
     m,h=map(int,input().split())
     bmi=(m//(h**2))

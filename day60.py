@@ -24,3 +24,10 @@ NO
 YES
 NO
 """
+#Python solution
+for _ in range(int(input())):
+    arr=[i for i in input().split()]
+    if arr.count('1')>3:
+        print("YES")
+    else:
+        print("NO")

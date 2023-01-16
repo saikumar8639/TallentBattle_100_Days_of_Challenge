@@ -36,4 +36,3 @@ for _ in range(int(input())):
         print(3)
     else:
         print(4)
-    

@@ -25,6 +25,7 @@ NO
 YES
 YES
 """
+#Python solution
 for _ in range(int(input())):
     n,x,y=map(int,input().split())
     print("YES" if (n+1)*y>=x else "NO")

@@ -28,6 +28,7 @@ Output:
 Bad
 Good
 """
+#Python solution
 for _ in range(int(input())):
     s=input()
     if "010" in s or "101" in s:

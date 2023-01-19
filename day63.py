@@ -1,12 +1,17 @@
 """
 Day 63 coding Statement : Balancing Weight
 
-No play and eating all day makes your belly fat. This happened to Manish during the lockdown. His weight before the lockdown was w1 kg (measured on the most accurate hospital machine) and after M months of lockdown, when he measured his weight at home (on a regular scale, which can be inaccurate), he got the result that his weight was w2 kg (w2>w1).
-Scientific research in all growing kids shows that their weights increase by a value between x1 and x2 kg (inclusive) per month, but not necessarily the same value each month. Manish assumes that he is a growing kid. Tell him whether his home scale could be giving correct results.
+No play and eating all day makes your belly fat. This happened to Manish during the lockdown. His weight before the lockdown was w1 kg 
+(measured on the most accurate hospital machine) and after M months of lockdown, when he measured his weight at home (on a regular scale,
+ which can be inaccurate), he got the result that his weight was w2 kg (w2>w1).
+Scientific research in all growing kids shows that their weights increase by a value between x1 and x2 kg (inclusive) per month, but not 
+necessarily the same value each month. Manish assumes that he is a growing kid. Tell him whether his home scale could be giving correct 
+results.
 
 Input
 
-The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows. The first and only line of each test case contains five space-separated integers w1, w2, x1, x2 and M.
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows. 
+The first and only line of each test case contains five space-separated integers w1, w2, x1, x2 and M.
 
 Output
 
@@ -30,3 +35,11 @@ Sample Output 1
 1
 0
 """
+for _ in range(int(input())):
+    w1,w2,x1,x2,m=map(int,input().split())
+    diff=w2-w1
+    if x1*m <= diff and x2*m>=diff:
+        print(1)
+    else:
+        print(0)
+    

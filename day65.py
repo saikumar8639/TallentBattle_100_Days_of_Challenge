@@ -45,6 +45,7 @@ Sample Output 1
 no tablet
 25
 """
+#Python solution
 for _ in range(int(input())):
     n,b=map(int,input().split())
     ans=0

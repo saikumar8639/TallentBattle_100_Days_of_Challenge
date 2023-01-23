@@ -36,3 +36,12 @@ Sample Output 1
 #Python
 for _ in range(int(input())):
     s,w1,w2,w3=map(int,input().split())
+    ls=[]
+    us=[]
+    arr=[w1,w2,w3]
+    for i in range(3):
+        if arr[i]+sum(us)<=s:
+            us.append(arr[i])
+        if arr[-i-1]+sum(ls)<=s:
+            ls.append(arr[-i-1])
+    print(max(len(ls),len(us)))

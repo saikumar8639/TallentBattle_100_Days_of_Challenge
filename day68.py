@@ -39,3 +39,12 @@ Yes
 No
 No
 """
+arr=[]
+for _ in range(n=int(input())):
+    a,b=map(int,input().split())
+    if a==1:
+        arr.append(b)
+    elif a==2 and b in arr:
+        arr.remove(b)
+    else:
+        print("YES" if b in arr else "NO")

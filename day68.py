@@ -39,8 +39,9 @@ Yes
 No
 No
 """
+#Python solution
 arr=[]
-for _ in range(n=int(input())):
+for _ in range(int(input())):
     a,b=map(int,input().split())
     if a==1:
         arr.append(b)

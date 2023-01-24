@@ -11,6 +11,7 @@ I am an equilateral triangle
 
 I am an isosceles triangle I am a triangle
 """
+#Python solution
 class Isosceles(object):
     def display1(self):
         print("Iam an isosceles triangle Iam a triangle")

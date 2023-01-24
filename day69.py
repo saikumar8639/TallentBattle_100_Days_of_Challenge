@@ -11,3 +11,12 @@ I am an equilateral triangle
 
 I am an isosceles triangle I am a triangle
 """
+class Isosceles(object):
+    def display1(self):
+        print("Iam an isosceles triangle Iam a triangle")
+class Equilateral(Isosceles) :
+    def display2(self):
+        print("I am an equilateral triangle")
+tr=Equilateral()
+tr.display2()
+tr.display1()

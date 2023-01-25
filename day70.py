@@ -23,6 +23,6 @@ N=int(input())
 A=[int(i) for i in input().split()]
 ans=[]
 ans.append(A[-1])
-ans+=[A[:-1]]
+ans+=A[:-1]
 for i in ans :
     print(i,end=" ")

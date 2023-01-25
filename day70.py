@@ -19,6 +19,7 @@ A[] = {9, 8, 7, 6, 4, 2, 1, 3}
 Output:
 3 9 8 7 6 4 2 1
 """
+#Python solution
 N=int(input())
 A=[int(i) for i in input().split()]
 ans=[]

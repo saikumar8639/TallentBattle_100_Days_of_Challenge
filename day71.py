@@ -1,5 +1,5 @@
 """
-Question
+Sample Question 
 """
 #Python solution
 """

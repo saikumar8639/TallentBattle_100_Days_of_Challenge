@@ -3,5 +3,5 @@ Sample Question
 """
 #Python solution
 """
-python solution
+sample python solution
 """

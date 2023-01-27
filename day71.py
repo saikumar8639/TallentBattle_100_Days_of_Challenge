@@ -1,7 +1,7 @@
 """
 Sample Question 
 """
-#Python solution
+#Sample Python solution
 """
 sample python solution
 """

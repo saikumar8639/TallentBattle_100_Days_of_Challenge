@@ -37,7 +37,7 @@ Sample Output
 2
 3
 """
-#Sample Python solution
+#Python solution
 """
 sample python solution
 """

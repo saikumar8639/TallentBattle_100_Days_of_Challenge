@@ -38,6 +38,17 @@ Sample Output
 3
 """
 #Python solution
-"""
-sample python solution
-"""
+
+for _ in range(int(input())):
+    size=int(input())
+    arr=[int(i) for i in input().split()]
+    m=0
+    c=1
+    for i in range(size-1):
+        if arr[i]<=arr[i+1]:
+            c+=1
+        else:
+            m=max(c,m)
+            c=1
+    m=max(c,m)
+    print(m)

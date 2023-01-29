@@ -29,6 +29,7 @@ Sample Output
 acb
 acddb
 """
+#Python solution
 ans=[]
 for _ in range(int(input())):
     s=input().split()

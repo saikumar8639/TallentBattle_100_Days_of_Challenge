@@ -36,5 +36,5 @@ for _ in range(int(input())):
     if s[0]=="+":
         ans.insert(int(s[1]),s[2])
     elif s[0]=="?":
-        print("".join(ans[int(s[1]):int(s[2])]))
+        print("".join(ans[int(s[1])-1:int(s[2])]))
     ans=list("".join(ans))

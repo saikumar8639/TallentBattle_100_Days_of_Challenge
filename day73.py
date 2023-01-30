@@ -39,6 +39,7 @@ Sample Output
 1
 2
 """
+#Python solution
 for _ in range(int(input())):
     di={}
     size=int(input())

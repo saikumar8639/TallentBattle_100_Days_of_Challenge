@@ -39,3 +39,22 @@ Sample Output
 1
 2
 """
+for _ in range(int(input())):
+    di={}
+    size=int(input())
+    ele=input()
+    mx=0
+    i=0
+    while (i<size):
+        c=1
+        ss=ele[i]
+        while i<size-1 and ele[i]==ele[i+1]:
+            c+=1
+            i+=1
+            ss+=ele[i]
+        mx=max(mx,c,-1)
+        di[ss]=di.get(ss,0)+1
+        if di[ss]==2:
+            mx=max(mx,len(ss))
+        i+=1
+    print(mx)

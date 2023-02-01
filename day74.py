@@ -32,6 +32,7 @@ Sample Output
 0
 2
 """
+#final solution
 for _ in range(intinput()):
     m,n=map(int,input().split())
     if m%2==0 and n%2==0:

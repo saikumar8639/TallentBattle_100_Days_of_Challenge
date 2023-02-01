@@ -33,7 +33,7 @@ Sample Output
 2
 """
 #final solution
-for _ in range(intinput()):
+for _ in range(int(input())):
     m,n=map(int,input().split())
     if m%2==0 and n%2==0:
         print("0")

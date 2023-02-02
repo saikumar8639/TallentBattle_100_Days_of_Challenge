@@ -40,9 +40,9 @@ def check(x):
     for i in range(n):
         if len(ls[cIND])==k:
             return True
-    if len(ls[cIND])==0 or ls[cIND][-1]*c<=a[i]:
-        ls[cIND].append(a[i])
-    cIND = (cIND+1)%x
+        if len(ls[cIND])==0 or ls[cIND][-1]*c<=a[i]:
+            ls[cIND].append(a[i])
+            cIND = (cIND+1)%x
     if len(ls[cIND])==k:
         return True
     return False

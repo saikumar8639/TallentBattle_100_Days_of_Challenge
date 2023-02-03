@@ -34,3 +34,8 @@ Sample Output
 12
 126
 """
+#Python solution
+for _ in range(int(input())):
+    n=int(input())
+    arr=sorted([int(i) for i in input().split()])
+    print(max((arr[-2]-arr[0])*arr[-1],(arr[-1]-arr[0])*arr[-2]))

@@ -48,3 +48,21 @@ Sample Output
 
 2"""
 #Python solution
+for _ in range(int(input())):
+    n=int(input())
+    s=list(input())
+    c=0
+    while(s.count('1')!=0):
+        cnt=0
+        t=0
+        for i in range(n):
+            if t==1:
+                t=0
+                continue
+            elif s[i]=='1':
+                cnt+=1
+                s[i]='0'
+                t=1
+            if cnt!=0:
+                c+=1
+    print(c)

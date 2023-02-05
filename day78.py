@@ -38,6 +38,7 @@ Sample Output
 
 1041808
 """
+#Python solution
 def compute(arr):
     n = len(arr);total = 0
     for i in range(n - 2):

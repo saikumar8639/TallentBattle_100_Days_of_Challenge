@@ -47,3 +47,4 @@ Sample Output
 0
 
 2"""
+#Python solution

@@ -40,3 +40,12 @@ NO
 YES
 NO
 YES"""
+for _ in range(int(input())):
+    n=int(input())
+    arr=[int(i) for i in input().split()]
+    from collections import Counter as c
+    arr=c(arr)
+    if (all(arr[i]%2==0 for i in arr)):
+        print("YES")
+    else:
+        print("NO")

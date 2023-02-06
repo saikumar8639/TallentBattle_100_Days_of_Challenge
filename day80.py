@@ -40,6 +40,7 @@ NO
 YES
 NO
 YES"""
+#Python solution
 for _ in range(int(input())):
     n=int(input())
     arr=[int(i) for i in input().split()]

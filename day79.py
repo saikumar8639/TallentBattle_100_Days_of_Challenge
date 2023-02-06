@@ -25,17 +25,11 @@ For each test case, output the minimum number of operations required to convert 
 Sample Input
 
 3
-
 6
-
 101001
-
 5
-
 00000
-
 3
-
 111
 
  
@@ -43,10 +37,9 @@ Sample Input
 Sample Output
 
 1
-
 0
-
-2"""
+2
+"""
 #Python solution
 for _ in range(int(input())):
     n=int(input())

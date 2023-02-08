@@ -48,3 +48,9 @@ Explanation
 2   6 4   7
 """
 #Python solution
+n=int(input())
+while n!=0:
+    arr=[int(i) for i in input().split()]
+    choice=
+
+    n=int(input())

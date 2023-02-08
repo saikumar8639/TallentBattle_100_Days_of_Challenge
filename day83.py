@@ -47,3 +47,4 @@ Explanation
 
 2   6 4   7
 """
+#Python solution

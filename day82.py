@@ -49,3 +49,8 @@ Sample Output
 1101
 """
 #Python solution
+for _ in range(int(input())):
+    n=int(input())
+    arr=[]
+    for i in range(n):
+        arr.append(input())

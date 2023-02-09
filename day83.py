@@ -48,12 +48,10 @@ Explanation
 2   6 4   7
 """
 #Python solution
-n=int(input())
-while n!=0:
+h=int(input())
+while h!=0:
     arr=[int(i) for i in input().split()]
-    #choice=
-
-    h=int(input())
+    
     n=(1<<h)-1
     p=[0]*(n+10)
     v=[ int(x) for x in input().split() ]
@@ -64,3 +62,4 @@ while n!=0:
             p[i]=v[i]*max(p[2*i+1],p[2*i+2])
     ans=p[0]%1000000007
     print(ans)
+    h=int(input())

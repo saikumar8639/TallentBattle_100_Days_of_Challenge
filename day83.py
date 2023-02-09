@@ -51,6 +51,6 @@ Explanation
 n=int(input())
 while n!=0:
     arr=[int(i) for i in input().split()]
-    choice=
+    #choice=
 
     n=int(input())

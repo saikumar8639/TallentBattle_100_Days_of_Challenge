@@ -25,5 +25,4 @@ Output: 0
 
 
 """
-#python
-#solution
+#python solution

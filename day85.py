@@ -42,6 +42,7 @@ Sample Output
 3
 1
 """
+#Python solution
 for _ in range(int(input())):
     mod = 1000000007
     n,m,l=map(int,input().split())

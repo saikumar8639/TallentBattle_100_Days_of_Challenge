@@ -31,6 +31,8 @@ Sample Output
 10
 1 1
 """
+#Python solution
+
 def binarySearch (arr, l, r, x):
     if r >= l:
         mid = l + (r - l) // 2

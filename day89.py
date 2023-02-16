@@ -37,3 +37,4 @@ Sample Output
 2
 
 """
+#Python solution

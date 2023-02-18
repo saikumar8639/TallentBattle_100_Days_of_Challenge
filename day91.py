@@ -67,3 +67,4 @@ Warsaw Kiev 120
 570
 
 """
+#Python solution

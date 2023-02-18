@@ -48,3 +48,11 @@ Sample Output
 
 4
 """
+for _ in range(int(input())):
+    m,n=map(int,input().split())
+    arr1=[int(i) for i in input().split()]
+    arr2=[int(i) for i in input().split()]
+    s=0
+    for i in arr1:
+        s+=(i)*(min(arr1.count(i),arr2.count(i)))
+    print(s)

@@ -42,3 +42,21 @@ Sample Input
 
 1000
 """
+l1=[]
+l=[]
+n=int(input())
+for _ in range(n):
+    s=input()
+    l.append(s)
+    l1.append(int(s,2))
+j=0
+k=0
+cout=0
+while ( j <n-1):
+    k=j+1
+    while(k<n):
+        if (l[j][k]== "0" and l1[j]&l1[k]>=1):
+            cout+=2
+        k+=1
+    j+=1
+print(cout)

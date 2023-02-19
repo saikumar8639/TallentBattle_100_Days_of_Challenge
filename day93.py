@@ -42,6 +42,7 @@ Sample Input
 
 1000
 """
+#Python solution
 l1=[]
 l=[]
 n=int(input())

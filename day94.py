@@ -76,3 +76,4 @@ Sample Output
 
 -1
 """
+#Python solution

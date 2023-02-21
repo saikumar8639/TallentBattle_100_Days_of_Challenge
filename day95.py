@@ -33,5 +33,6 @@ Sample Output
 
 0
 """
+#python solution
 for _ in range(int(input())):
     print((int(input()))%2)

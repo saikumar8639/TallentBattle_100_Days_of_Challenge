@@ -33,3 +33,5 @@ Sample Output
 
 0
 """
+for _ in range(int(input())):
+    print((int(input()))%2)

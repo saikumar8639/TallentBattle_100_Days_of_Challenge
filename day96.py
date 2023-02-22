@@ -37,6 +37,7 @@ Sample Output
 BWBW
 
 """
+#Python solution
 for _ in range(int(input())):
     x=input()
     y=input()

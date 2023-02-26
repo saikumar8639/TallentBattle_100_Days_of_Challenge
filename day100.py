@@ -34,6 +34,8 @@ Sample Output
 0
 
  """
+ #python solution
+ 
 from collections import Counter
 for _ in range(int(input())):
     a=list(map(int,input().split()))

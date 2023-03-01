@@ -34,7 +34,7 @@ Sample Output
 0
 
  """
- #python solution
+#python solution some
  
 from collections import Counter
 for _ in range(int(input())):
